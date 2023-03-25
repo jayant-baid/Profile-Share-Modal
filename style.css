@@ -11,6 +11,9 @@
     background: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle1 {
@@ -280,14 +283,6 @@
 }
 
 @media (max-width:400px) {
-    .centercard {
-        height: 100vh;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .card-wrapper {
         position: relative;
         margin: 0 12px;
